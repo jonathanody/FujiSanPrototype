@@ -15,9 +15,9 @@ namespace FujiSan.WebAPI.Controllers
 	{
 		private readonly ICpdItemRepository _cpdItemsRepository;
 
-		public CpdItemsController()
+		public CpdItemsController(ICpdItemRepository cpdItemRepository)
 		{
-			_cpdItemsRepository = new CpdItemRepositoryJson();
+			_cpdItemsRepository = cpdItemRepository;
 		}
 
 		// GET: api/cpditems
