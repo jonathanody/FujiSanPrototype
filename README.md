@@ -1,2 +1,2 @@
-# FujiSanPrototype
-A prototype for a continued professional development management application
+# Fuji San - Prototype
+A prototype of a continued professional development management application
