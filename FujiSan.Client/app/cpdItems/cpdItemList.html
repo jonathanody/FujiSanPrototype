@@ -1,0 +1,21 @@
+﻿<div class="panel panel-primary" ng-controller="CpdListController as vm">
+	<div class="panel-heading">
+		<h4>CPD Items</h4>
+	</div>
+	<div class="panel-body">
+		<table class="table table-responsive">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Author</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="cpdItem in vm.cpdItems">
+					<td>{{cpdItem.name}}</td>
+					<td>{{cpdItem.author}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

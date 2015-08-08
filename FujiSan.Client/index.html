@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html ng-app="fuji">
+<head lang="en">
+	<meta charset="utf-8" />
+	<title>Fuji San</title>
+
+	<link href="Content/bootstrap.css" rel="stylesheet"/>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<div class="navbar-brand">Fuji San</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div ng-include="'app/cpdItems/cpdItemList.html'"></div>
+		</div>
+	</div>
+
+	<!-- Library Scripts -->
+	<script src="scripts/angular.js"></script>
+	<script src="Scripts/angular-resource.js"></script>
+
+	<!-- Application Script -->
+	<script src="app/app.js"></script>
+	
+	<!--Cpd Scripts-->
+	<script src="app/cpdItems/cpdItemRepository.js"></script>
+	<script src="app/cpdItems/cpdItemListController.js"></script>
+</body>
+</html>

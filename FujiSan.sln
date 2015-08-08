@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FujiSan.WebAPI", "FujiSan.WebAPI\FujiSan.WebAPI.csproj", "{8AD1E4B5-8FC1-4102-A8B4-DA58A6A312A3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FujiSan.Client", "http://localhost:52272", "{C640ACA8-7E1F-4DA0-A331-5E7C002FBC8C}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52272"
+		Debug.AspNetCompiler.PhysicalPath = "FujiSan.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52272\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52272"
+		Release.AspNetCompiler.PhysicalPath = "FujiSan.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52272\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "FujiSan.Client\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AD1E4B5-8FC1-4102-A8B4-DA58A6A312A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD1E4B5-8FC1-4102-A8B4-DA58A6A312A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD1E4B5-8FC1-4102-A8B4-DA58A6A312A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD1E4B5-8FC1-4102-A8B4-DA58A6A312A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C640ACA8-7E1F-4DA0-A331-5E7C002FBC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C640ACA8-7E1F-4DA0-A331-5E7C002FBC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C640ACA8-7E1F-4DA0-A331-5E7C002FBC8C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C640ACA8-7E1F-4DA0-A331-5E7C002FBC8C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

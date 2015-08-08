@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "35c035e1-1344-4d54-8f17-af7aedec561b",
+    "Publisher": ".Net Rocks",
+    "Name": "Lean Functional with Bryan Hunter",
+    "LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1163",
+    "Type": "Podcast",
+    "Tag": "Lean Functional",
+    "Author": "Bryan Hunter",
+    "Session": "2015-07-23T01:00:00-07:00"
+  },
+  {
+    "Id": "94d770b5-db37-4f93-b1f0-1c055d1d2dd9",
+    "Publisher": ".Net Rocks",
+    "Name": "Developing ASP.NET on Linux with Mark Rendle",
+    "LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1162",
+    "Type": "Podcast",
+    "Tag": "ASP.NET on Linux",
+    "Author": "Mark Rendle",
+    "Session": "2015-07-22T01:00:00-07:00"
+  },
+  {
+    "Id": "c971c83f-90a8-42ac-a5ec-ad4b32e44cd7",
+    "Publisher": ".Net Rocks",
+    "Name": "Building a Compiler with Philip Laureano",
+    "LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1161",
+    "Type": "Podcast",
+    "Tag": "Compilers",
+    "Author": "Philip Laureano",
+    "Session": "2015-07-21T01:00:00-07:00"
+  }
+]
