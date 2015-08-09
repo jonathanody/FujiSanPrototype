@@ -11,6 +11,9 @@
 
 .navbar {
 	margin-bottom: 0;
+	background-color: #003366;
+	color: #fff;
+	border-top: 0;
 }
 
 .page-header-fuji {
@@ -24,18 +27,42 @@
 }
 
 .container-no-padding {
-	padding: 0;
+	padding: 0 10px;
 }
 
 .navbar-brand {
-	padding: 15px 0;
-}
-
-.navbar-fuji {
-	background-color: #003366;
+	padding: 15px 10px;
 	color: #fff;
 }
 
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:visited {
+	color: #fff;
+}
+
+.navbar-toggle {
+	border: 1px solid #004080;
+}
+
+.nav > li > a:hover {
+	background-color: #004080;
+}
+
+.nav > li> a.active,
+.nav > li a:hover .active {
+	background-color: #eee;
+	color: #003366;
+}
+
+.nav a {
+	color: #fff;
+}
+
+
+.icon-bar {
+	background-color: #fff;
+}
 
 @media (min-width: 768px) {
 	.navbar {

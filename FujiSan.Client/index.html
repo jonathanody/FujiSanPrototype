@@ -9,15 +9,36 @@
 	<link href="Content/fuji.css" rel="stylesheet"/>
 </head>
 <body>
-	<nav class="navbar navbar-fuji">
+	<nav class="navbar">
 		<div class="container">
 			<div class="navbar-header">
-				<div class="navbar-brand">Fuji San</div>
+				<button type="button"
+						class="navbar-toggle collapsed"
+						data-toggle="collapse"
+						data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" data-ui-sref="home">Fuji San</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li>
+						<a data-ui-sref="cpdItemsList"
+						   data-ui-sref-active="active">CPD Items List</a>
+					</li>
+					<li>
+						<a data-ui-sref="cpdItemsGrid"
+						   data-ui-sref-active="active">CPD Items Grid</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div ng-include="'app/cpdItems/cpdItemList.html'"></div>
+	<div data-ui-view></div>
 
 	<footer class="footer">
 		<div class="container container-no-padding text-center">
@@ -26,8 +47,11 @@
 	</footer>
 
 	<!-- Library Scripts -->
+	<script src="Scripts/jquery-1.9.1.js"></script>
 	<script src="scripts/angular.js"></script>
 	<script src="Scripts/angular-resource.js"></script>
+	<script src="Scripts/angular-ui-router.js"></script>
+	<script src="Scripts/bootstrap.js"></script>
 
 	<!-- Application Script -->
 	<script src="app/app.js"></script>
@@ -35,5 +59,6 @@
 	<!--Cpd Scripts-->
 	<script src="app/cpdItems/cpdItemRepository.js"></script>
 	<script src="app/cpdItems/cpdItemListController.js"></script>
+	<script src="app/cpdItems/cpdItemGridController.js"></script>
 </body>
 </html>
