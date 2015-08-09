@@ -3,3 +3,42 @@
 	height: 200px;
 	background-color: green;
 }
+
+.btn-grid-list {
+	margin-left: 5px;
+}
+
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.page-header-fuji {
+	background-color: #e5e5e5; 
+	margin-bottom:10px;
+}
+
+.page-header-fuji h2 {
+	margin-top: 10px;
+}
+
+.container-no-padding {
+	padding: 0;
+}
+
+.navbar-brand {
+	padding: 15px 0;
+}
+
+.navbar-fuji {
+	background-color: #003366;
+	color: #fff;
+}
+
+
+@media (min-width: 768px) {
+	.navbar {
+		-webkit-border-radius: 0;
+		border-radius: 0;
+	}
+}

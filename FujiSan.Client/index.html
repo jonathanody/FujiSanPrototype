@@ -5,21 +5,25 @@
 	<title>Fuji San</title>
 
 	<link href="Content/bootstrap.css" rel="stylesheet"/>
+	<link href="Content/bootstrap-sticky-footer.css" rel="stylesheet" />
+	<link href="Content/fuji.css" rel="stylesheet"/>
 </head>
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
+	<nav class="navbar navbar-fuji">
+		<div class="container">
 			<div class="navbar-header">
 				<div class="navbar-brand">Fuji San</div>
 			</div>
 		</div>
 	</nav>
 
-	<div class="container">
-		<div class="row">
-			<div ng-include="'app/cpdItems/cpdItemList.html'"></div>
+	<div ng-include="'app/cpdItems/cpdItemList.html'"></div>
+
+	<footer class="footer">
+		<div class="container container-no-padding">
+			Fuji San - A continued professional develpment management platform created by Jonathan Ody
 		</div>
-	</div>
+	</footer>
 
 	<!-- Library Scripts -->
 	<script src="scripts/angular.js"></script>
