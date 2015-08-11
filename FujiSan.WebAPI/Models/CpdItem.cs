@@ -12,8 +12,8 @@ namespace FujiSan.WebAPI.Models
 		public string Name { get; set; }
 		public string LinkUrl { get; set; }
 		public string Type { get; set; }
-		public string Tag { get; set; }
-		public string Author { get; set; }
-		public DateTime Session { get; set; }
+		public List<string> Tags { get; set; }
+		public List<string> Authors { get; set; }
+		public List<DateTime> Sessions { get; set; }
 	}
 }

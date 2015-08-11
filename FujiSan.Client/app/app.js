@@ -1,7 +1,7 @@
 ﻿(function () {
 	"use strict";
 
-	var app = angular.module("fuji", ["ngResource", "ui.router"]);
+	var app = angular.module("fuji", ["ngResource", "ui.router", "iso.directives"]);
 
 	app.config(["$stateProvider", "$urlRouterProvider",
 		function ($stateProvider, $urlRouterProvider) {

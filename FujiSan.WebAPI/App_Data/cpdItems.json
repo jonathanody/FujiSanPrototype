@@ -1,32 +1,272 @@
 [
-  {
-    "Id": "35c035e1-1344-4d54-8f17-af7aedec561b",
-    "Publisher": ".Net Rocks",
-    "Name": "Lean Functional with Bryan Hunter",
-    "LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1163",
-    "Type": "Podcast",
-    "Tag": "Lean Functional",
-    "Author": "Bryan Hunter",
-    "Session": "2015-07-23T01:00:00-07:00"
-  },
-  {
-    "Id": "94d770b5-db37-4f93-b1f0-1c055d1d2dd9",
-    "Publisher": ".Net Rocks",
-    "Name": "Developing ASP.NET on Linux with Mark Rendle",
-    "LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1162",
-    "Type": "Podcast",
-    "Tag": "ASP.NET on Linux",
-    "Author": "Mark Rendle",
-    "Session": "2015-07-22T01:00:00-07:00"
-  },
-  {
-    "Id": "c971c83f-90a8-42ac-a5ec-ad4b32e44cd7",
-    "Publisher": ".Net Rocks",
-    "Name": "Building a Compiler with Philip Laureano",
-    "LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1161",
-    "Type": "Podcast",
-    "Tag": "Compilers",
-    "Author": "Philip Laureano",
-    "Session": "2015-07-21T01:00:00-07:00"
-  }
+	{
+		"Id": "8589cc29-36ad-4533-8eca-a7da52e16a7d",
+		"Publisher": ".Net Rocks",
+		"Name": "SOLID Principles and .NET with Chris Klug",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1166",
+		"Type": "Podcast",
+		"Tags": [ "SOLID", "Pragmatic SOLID", "Craftsmanship" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Chris Klug" ],
+		"Sessions": [ "2015-07-31T01:00:00-01:00" ]
+	},
+	{
+		"Id": "f3be1758-0ee4-46ba-9c44-48e672337641",
+		"Publisher": "Pluralsight",
+		"Name": "AngularJS Line of Business Applications",
+		"LinkUrl": "http://www.pluralsight.com/courses/angularjs-line-of-business-applications",
+		"Type": "Course",
+		"Tags": [ "AngularJS" ],
+		"Authors": [ "Deborah Kurata" ],
+		"Sessions": [ "2015-07-30T01:00:00-01:00", "2015-07-31T01:00:00-01:00" ]
+	},
+	{
+		"Id": "a88393c1-6659-425d-87a9-4192529364a0",
+		"Publisher": ".Net Rocks",
+		"Name": "Fixing Websites with RemoteDebug with Kenneth Auchenberg",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1165",
+		"Type": "Podcast",
+		"Tags": [ "Remote Debug" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Kenneth Auchenberg" ],
+		"Sessions": [ "2015-07-30T01:00:00-01:00" ]
+	},
+	{
+		"Id": "ed2a64e8-facb-4d48-b755-35fa8ba695c5",
+		"Publisher": ".Net Rocks",
+		"Name": "DevOps in a Windows World with Jon Arild Torresdal",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1164",
+		"Type": "Podcast",
+		"Tags": [ "Dev Ops" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Jon Arild Torresdal" ],
+		"Sessions": [ "2015-07-29T01:00:00-01:00" ]
+	},
+	{
+		"Id": "7feae223-cd81-47e8-bd4c-7ed4a570b7bb",
+		"Publisher": "Visual Studio",
+		"Name": "Keynote: Visual Studio 2015 - Any app, Any developer",
+		"LinkUrl": "https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/Keynote-Visual-Studio-2015-Any-app-Any-developer",
+		"Type": "Video",
+		"Tags": [ "Visual Studio 2015" ],
+		"Authors": [ "S. Somasegar", "Scott Hanselman", "Brian Harry", "Beth Massi", "Amanda Silver" ],
+		"Sessions": [ "2015-07-25T01:00:00-01:00", "2015-07-26T01:00:00-01:00" ]
+	},
+	{
+		"Id": "35c035e1-1344-4d54-8f17-af7aedec561b",
+		"Publisher": ".Net Rocks",
+		"Name": "Lean Functional with Bryan Hunter",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1163",
+		"Type": "Podcast",
+		"Tags": [ "Lean Functional" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Bryan Hunter" ],
+		"Sessions": [ "2015-07-23T01:00:00-01:00", "2015-07-28T01:00:00-01:00" ]
+	},
+	{
+		"Id": "94d770b5-db37-4f93-b1f0-1c055d1d2dd9",
+		"Publisher": ".Net Rocks",
+		"Name": "Developing ASP.NET on Linux with Mark Rendle",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1162",
+		"Type": "Podcast",
+		"Tags": [ "ASP.NET on Linux" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Mark Rendle" ],
+		"Sessions": [ "2015-07-22T01:00:00-01:00", "2015-07-23T01:00:00-01:00" ]
+	},
+	{
+		"Id": "c971c83f-90a8-42ac-a5ec-ad4b32e44cd7",
+		"Publisher": ".Net Rocks",
+		"Name": "Building a Compiler with Philip Laureano",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1161",
+		"Type": "Podcast",
+		"Tags": [ "Compilers" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Philip Laureano" ],
+		"Sessions": [ "2015-07-21T01:00:00-01:00", "2015-07-22T01:00:00-01:00" ]
+	},
+	{
+		"Id": "442bf170-47ab-40fa-b328-f26c2c3b4653",
+		"Publisher": "Pluralsight",
+		"Name": "Implementing an API in ASP.NET Web API",
+		"LinkUrl": "http://www.pluralsight.com/courses/implementing-restful-aspdotnet-web-api",
+		"Type": "Course",
+		"Tags": [ "ASP.NET WebAPI" ],
+		"Authors": [ "Shawn Wildermuth" ],
+		"Sessions": [ "2015-07-21T01:00:00-01:00", "2015-07-22T01:00:00-01:00", "2015-07-27T01:00:00-01:00", "2015-07-30T01:00:00-01:00" ]
+	},
+	{
+		"Id": "59e70dd2-eba1-42cd-80e2-8b1d67da77e7",
+		"Publisher": ".Net Rocks",
+		"Name": "No Estimates with Woody Zuill",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1160",
+		"Type": "Podcast",
+		"Tags": [ "No Estimates" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Woody Zuill" ],
+		"Sessions": [ "2015-07-20T01:00:00-01:00", "2015-07-21T01:00:00-01:00" ]
+	},
+	{
+		"Id": "eb0369c1-de21-4cae-98c9-4680b07957e7",
+		"Publisher": ".Net Rocks",
+		"Name": "Elixir and Phoenix with Chris McCord",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1159",
+		"Type": "Podcast",
+		"Tags": [ "Elixir", "Phoenix" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Chris McCord" ],
+		"Sessions": [ "2015-07-17T01:00:00-01:00", "2015-07-20T01:00:00-01:00" ]
+	},
+	{
+		"Id": "0f1892ae-6b18-43aa-b0c5-94741e056f9d",
+		"Publisher": ".Net Rocks",
+		"Name": "NuGet, Chocolatey, Boxstarter and Vagrant with Justin James",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1158",
+		"Type": "Podcast",
+		"Tags": [ "NuGet", "Chocolatey", "Boxstarter", "Vagrant" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Justin James" ],
+		"Sessions": [ "2015-07-16T01:00:00-01:00", "2015-07-17T01:00:00-01:00" ]
+	},
+	{
+		"Id": "bf5d9c8e-5fff-47f9-8ee9-e549e47e6bda",
+		"Publisher": ".Net Rocks",
+		"Name": "Passwords, SQL Injection and WiFi Security with Troy Hunt",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1157",
+		"Type": "Podcast",
+		"Tags": [ "Security", "Passwords", "SQL Injection", "WiFi Security" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Troy Hunt" ],
+		"Sessions": [ "2015-07-15T01:00:00-01:00", "2015-07-16T01:00:00-01:00" ]
+	},
+	{
+		"Id": "52f543bb-59ff-4088-a5a7-299a61d7c93c",
+		"Publisher": "Pluralsight",
+		"Name": "Best Practices in ASP.NET: Entities, Validation, and View Models",
+		"LinkUrl": "http://www.pluralsight.com/courses/aspdotnet-bestpractices-models",
+		"Type": "Course",
+		"Tags": [ "ASP.NET MVC", "ASP.NET WebAPI", "Entities", "Validation", "View Models", "Craftsmanship" ],
+		"Authors": [ "Shawn Wildermuth" ],
+		"Sessions": [ "2015-07-15T01:00:00-01:00", "2015-07-16T01:00:00-01:00", "2015-07-17T01:00:00-01:00", "2015-07-20T01:00:00-01:00" ]
+	},
+	{
+		"Id": "6799a629-e554-43b5-b638-743c39603aae",
+		"Publisher": ".Net Rocks",
+		"Name": ".NET Everywhere with Rocky Lhotka",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1156",
+		"Type": "Podcast",
+		"Tags": [ ".Net Everywhere" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Rocky Lhotka" ],
+		"Sessions": [ "2015-07-14T01:00:00-01:00", "2015-07-15T01:00:00-01:00" ]
+	},
+	{
+		"Id": "c13257e1-6e0f-466a-ab50-e0f6261ded66",
+		"Publisher": "Tech Ed 2014",
+		"Name": "Entity Framework Model Partitioning in Domain-Driven Design Bounded Contexts",
+		"LinkUrl": "https://channel9.msdn.com/Events/TechEd/Europe/2014/DEV-B411",
+		"Type": "Video",
+		"Tags": [ "Domain Driven Design" ],
+		"Authors": [ "Julie Lerman" ],
+		"Sessions": [ "2015-07-14T01:00:00-01:00", "2015-07-15T01:00:00-01:00", "2015-07-16T01:00:00-01:00" ]
+	},
+	{
+		"Id": "90caff79-65d6-4100-8abd-dbf91ab3166b",
+		"Publisher": ".Net Rocks",
+		"Name": "Performance Tuning in Azure with Christopher Bennage",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1155",
+		"Type": "Podcast",
+		"Tags": [ "Azure", "Performance Tuning" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Christopher Bennage" ],
+		"Sessions": [ "2015-07-13T01:00:00-01:00", "2015-07-14T01:00:00-01:00" ]
+	},
+	{
+		"Id": "1c8107e9-ceda-481e-a5de-5088d2e42c35",
+		"Publisher": ".Net Rocks",
+		"Name": "Energy Storage Geek Out",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1154",
+		"Type": "Podcast",
+		"Tags": [ "Geek Out", "Energy Storage" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell" ],
+		"Sessions": [ "2015-07-10T01:00:00-01:00", "2015-07-13T01:00:00-01:00" ]
+	},
+	{
+		"Id": "d15410fb-c71e-44e1-a9ea-5d2e85f0019b",
+		"Publisher": ".Net Rocks",
+		"Name": "Instrumenting using Stackify with Jason Taylor and Michael Paterson",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1153",
+		"Type": "Podcast",
+		"Tags": [ "Instrumentation", "Stackify" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Jason Taylor", "Michael Paterson" ],
+		"Sessions": [ "2015-07-09T01:00:00-01:00", "2015-07-10T01:00:00-01:00" ]
+	},
+	{
+		"Id": "e9b2cafd-3112-42f6-808d-c97d87bb4ac9",
+		"Publisher": ".Net Rocks",
+		"Name": "Extending C# using Fody with Simon Cropp",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1152",
+		"Type": "Podcast",
+		"Tags": [ "Fody", "IL Manipulation" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Simon Cropp" ],
+		"Sessions": [ "2015-07-09T01:00:00-01:00" ]
+	},
+	{
+		"Id": "e631b3d8-f372-4637-907d-a1c0f791436e",
+		"Publisher": "Tech Ed 2014",
+		"Name": "Applying CQRS and Event Sourcing in Microsoft .NET Applications",
+		"LinkUrl": "https://channel9.msdn.com/Events/TechEd/Europe/2014/DEV-B313",
+		"Type": "Video",
+		"Tags": [ "Domain Driven Design", "CQRS", "Event Sourcing" ],
+		"Authors": [ "Dino Esposito", "Andrea Saltarello" ],
+		"Sessions": [ "2015-07-07T01:00:00-01:00", "2015-07-08T01:00:00-01:00", "2015-07-09T01:00:00-01:00" ]
+	},
+	{
+		"Id": "7af98ccc-dde0-4258-82c2-1ab6fc312345",
+		"Publisher": "Pluralsight",
+		"Name": "Master-Detail Workflow Apps with EF, MVC, Identity 2, and Modals",
+		"LinkUrl": "http://www.pluralsight.com/courses/master-detail-workflow-ef-mvc-identity-modals",
+		"Type": "Course",
+		"Tags": [ "ASP.NET MVC", "EF", "Indentity 2", "Workflow", "Master Detail" ],
+		"Authors": [ "Adam Churvis" ],
+		"Sessions": [ "2015-07-06T01:00:00-01:00", "2015-07-07T01:00:00-01:00", "2015-07-08T01:00:00-01:00", "2015-07-09T01:00:00-01:00", "2015-07-12T01:00:00-01:00", "2015-07-14T01:00:00-01:00", "2015-07-15T01:00:00-01:00" ]
+	},
+	{
+		"Id": "1e53fc45-783a-44be-a51b-beaa223dbd76",
+		"Publisher": ".Net Rocks",
+		"Name": "Deeper into DDD with David Rael",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1151",
+		"Type": "Podcast",
+		"Tags": [ "Domain Driven Design" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "David Rael" ],
+		"Sessions": [ "2015-07-06T01:00:00-01:00", "2015-07-08T01:00:00-01:00" ]
+	},
+	{
+		"Id": "80958d91-3100-4ca6-972c-ac3c00a5f2b6",
+		"Publisher": ".Net Rocks",
+		"Name": "Building Microservices with Howard Dierking",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1150",
+		"Type": "Podcast",
+		"Tags": [ "Microservices", "SOA" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Howard Dierking" ],
+		"Sessions": [ "2015-07-02T01:00:00-01:00", "2015-07-03T01:00:00-01:00" ]
+	},
+	{
+		"Id": "44a41972-ddcc-4fea-a218-3b86b2367e29",
+		"Publisher": "Tech Ed 2014",
+		"Name": "Architecting and Implementing Domain-Driven Design Patterns with Microsoft .NET",
+		"LinkUrl": "https://channel9.msdn.com/Events/TechEd/Europe/2014/DEV-B211",
+		"Type": "Video",
+		"Tags": [ "Domain Driven Design" ],
+		"Authors": [ "Dino Esposito", "Andrea Saltarello" ],
+		"Sessions": [ "2015-07-01T01:00:00-01:00", "2015-07-02T01:00:00-01:00" ]
+	},
+	{
+		"Id": "e2607db4-8413-4b20-8b21-575305a14fbf",
+		"Publisher": ".Net Rocks",
+		"Name": "Building Web Apps using TypeScript with Steve Ognibene",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1149",
+		"Type": "Podcast",
+		"Tags": [ "Typescript", "Javascript" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Steve Ognibene" ],
+		"Sessions": [ "2015-07-01T01:00:00-01:00", "2015-07-02T01:00:00-01:00" ]
+	},
+	{
+		"Id": "586fbca0-6688-4b6b-93b6-0ddec99578af",
+		"Publisher": ".Net Rocks",
+		"Name": "Making a Developer Calendar with Steve Smith and Brendan Enrick",
+		"LinkUrl": "http://www.dotnetrocks.com/default.aspx?showNum=1148",
+		"Type": "Podcast",
+		"Tags": [ "Craftsmanship" ],
+		"Authors": [ "Carl Franklin", "Richard Campbell", "Steve Smith", "Brendan Enrick" ],
+		"Sessions": [ "2015-07-01T01:00:00-01:00" ]
+	}
 ]

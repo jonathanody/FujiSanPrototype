@@ -5,13 +5,13 @@
 		.module("fuji")
 		.controller("CpdListController", CpdListController);
 
-	CpdListController.$inject = ["CpdItemRepository"];
+	CpdListController.$inject = ["cpdItemRepository"];
 
-	function CpdListController(CpdItemRepository) {
+	function CpdListController(cpdItemRepository) {
 		var vm = this;
 
 		function init() {
-			CpdItemRepository.query(bindCpdItems);
+			cpdItemRepository.query(bindCpdItems);
 		}
 
 		function bindCpdItems(cpdItems) {

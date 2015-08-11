@@ -18,4 +18,11 @@
 			<i class="glyphicon glyphicon-list"></i>
 		</a>
 	</p>
+
+	<ul id="isotope-container" data-isotope-container="isotope-container" ng-cloak="">
+		<li class="app-tile" ng-repeat="tile in vm.cpdItems" data-isotope-item="isotope-item" ng-click="vm.hello(tile.name)">
+			<div class="app-tile-title">{{tile.publisher}}</div>
+			<div class="app-tile-content">{{tile.name}}</div>
+		</li>
+	</ul>
 </div>

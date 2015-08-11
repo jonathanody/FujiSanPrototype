@@ -3,12 +3,12 @@
 
 	angular
 		.module("fuji")
-		.factory("CpdItemRepository", CpdItemRepository);
+		.factory("cpdItemRepository", cpdItemRepository);
 
-	CpdItemRepository.$inject = ["$resource"];
+	cpdItemRepository.$inject = ["$resource"];
 
-	function CpdItemRepository($resource) {
-		return $resource("http://localhost:52500/api/cpditems/:id", { id: "@id"}, 
+	function cpdItemRepository($resource) {
+		return $resource("http://localhost:52500/api/cpditems/:id", { id: "@id" },
 			{
 				query: {
 					method: "GET",
