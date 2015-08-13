@@ -19,8 +19,13 @@
 		</a>
 	</p>
 
-	<ul id="isotope-container" data-isotope-container="isotope-container" ng-cloak="">
-		<li class="app-tile" ng-repeat="tile in vm.cpdItems" data-isotope-item="isotope-item" ng-click="vm.hello(tile.name)">
+	<div id="grid-filter" class="btn-group" opt-kind ok-key="filter" ng-cloak>
+		<button type="button" class="btn btn-primary active" ok-sel="*">Filter by Type</button>
+		<button ng-repeat="filterType in vm.filterTypes" class="btn btn-default" ok-sel=".{{filterType}}">{{filterType}}</button>
+	</div>
+
+	<ul id="isotope-container" data-isotope-container="isotope-container" ng-cloak>
+		<li class="app-tile {{tile.type}}" ng-repeat="tile in vm.cpdItems" data-isotope-item="isotope-item" ng-click="vm.hello(tile.name)">
 			<div class="app-tile-title">{{tile.publisher}}</div>
 			<div class="app-tile-content">{{tile.name}}</div>
 		</li>

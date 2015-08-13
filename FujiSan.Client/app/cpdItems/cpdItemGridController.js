@@ -16,11 +16,25 @@
 
 		function bindCpdItems(cpdItems) {
 			vm.cpdItems = cpdItems;
+			vm.filterTypes = getDistinctTypes(cpdItems);
 		}
 
 		vm.hello = function (name) {
 			alert("Hello " + name);
 		};
+
+		function getDistinctTypes(cpdItems) {
+			var unique = {};
+			var distinct = [];
+			cpdItems.forEach(function (x) {
+				if (!unique[x.type]) {
+					distinct.push(x.type);
+					unique[x.type] = true;
+				}
+			});
+
+			return distinct;
+		}
 
 		init();
 	}
