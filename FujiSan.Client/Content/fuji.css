@@ -161,20 +161,22 @@
   position: absolute;
   left: 0;
   right: 0;
-  -webkit-transition:all 1s ease-in-out;
-  transition:all 1s ease-in-out;
+  -webkit-transition:all 0.75s ease-in-out;
+  transition:all 0.75s ease-in-out;
 }
 
 [ui-view].ng-enter {
-  opacity: 0;
+  opacity: 0;    
+  top: -50px;
 }
 
 [ui-view].ng-enter-active {
   opacity: 1;
+  top: 0;
 }
 
 [ui-view].ng-leave {
-  opacity: 1;
+  opacity: 0;
 }
 
 [ui-view].ng-leave-active {
