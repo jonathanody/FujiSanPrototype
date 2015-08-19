@@ -21,12 +21,13 @@ namespace FujiSan.WebAPI.Controllers
 		}
 
 		// GET: api/cpditems
-		[EnableQuery(PageSize=50)]
-		public IQueryable<CpdItem> Get()
+		public IEnumerable<CpdItemViewModel> Get()
 		{
-			var cpdItems = _cpdItemsRepository.All().AsQueryable();
+			var cpdItems = _cpdItemsRepository.All();
 
-			return cpdItems;
+			var cpdItemViewModels = ModelFactory.Create(cpdItems);
+
+			return cpdItemViewModels;
 		}
 	
 	}

@@ -251,8 +251,10 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\CpdItem.cs" />
     <Compile Include="Models\CpdItemRepositoryJson.cs" />
+    <Compile Include="Models\CpdItemViewModel.cs" />
     <Compile Include="Models\ICpdItemRepository.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ModelFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />

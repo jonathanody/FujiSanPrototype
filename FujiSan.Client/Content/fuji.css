@@ -9,7 +9,7 @@
 
 .navbar {
 	margin-bottom: 0;
-	background-color: #003366;
+	background-color: #003964;
 	color: #fff;
 	border-top: 0;
 }
@@ -82,7 +82,7 @@
 
 
 /*** Tiles ***/
-.app-tile {
+.cpditem-tile {
 	float: left;
 	width: 160px;
 	height: 160px;
@@ -92,7 +92,7 @@
 	color: #fff;
 }
 
-.app-tile-title {
+.cpditem-tile-title {
 	font-weight: bold;
 	min-height: 47px;
 	max-height: 90px;
@@ -100,38 +100,38 @@
 	padding: 0 3px 3px 3px;
 }
 
-.app-tile .app-tile-content { 
+.cpditem-tile .cpditem-tile-content { 
 	font-size: 0.75em;
 	padding: 0 3px 3px 3px;
 }
 
-.app-tile-main {
+.cpditem-tile-main {
 	text-align: center;    
 	padding-top: 35px
 }
-.app-tile i {    
+.cpditem-tile i {    
 	color: white;
 }
 
-.app-tile-sm {    
+.cpditem-tile-sm {    
 	float: left;
 	margin: 2px;
 	background-color: #0072c6;
 	color: #fff;        
 }
 
-.app-tile-sm .app-tile-content {
+.cpditem-tile-sm .cpditem-tile-content {
 	width: 30px;
 	height: 30px;
 	text-align: center;
 	font-size: 0.75em;
 }
 
-.app-tile-sm .app-tile-content:hover {    
+.cpditem-tile-sm .cpditem-tile-content:hover {    
 	background-color: rgba(0,0,0, 0.5); 
 }
 
-.app-tile-sm i {
+.cpditem-tile-sm i {
 	padding-top: 2px;    
 }
 
@@ -147,8 +147,100 @@
 	font-weight: bold;
 }
 
-.app-tile-sm .app-tile-container a:hover {
+.cpditem-tile-sm .cpditem-tile-container a:hover {
 	background-color: rgba(0,0,0, 0.5); 
+}
+
+.cpditem-tile-overlay {
+	position: absolute;
+	top: 0;
+	right: -100%;
+	width: 160px;
+	height: 160px;
+	background-color: #003964;
+	color: white;	
+	overflow: hidden;
+	transition: .5s right;	
+	-moz-transition: .5s right;
+	-o-transition: .5s right;
+	-webkit-transition: .5s right;	
+}
+
+.cpditem-tile:hover .cpditem-tile-overlay {	
+	right: 0;    
+}
+
+.cpditem-tile-overlay-container {
+	padding: 0 3px;
+}
+
+.tags-container {
+	margin-bottom: 5px;
+	height: 110px;
+	overflow: hidden;
+}
+
+.tags-title {
+	margin-bottom: 3px;    
+	font-weight: bold;
+}
+
+.tags-container ul {    
+	list-style-type: none;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+.tags-container li {
+	display: inline-block;
+	font-weight: bold;
+	padding: 0 3px 2px 2px;
+	margin-right: 3px;
+	margin-bottom: 3px;    
+	background: #98c741;
+	border-radius: 3px;
+}
+
+.tags-container li:nth-child(4n) {
+  background: #966fd6;
+}
+
+.tags-container li:nth-child(4n+1) {
+  background: #e74108;
+}
+
+.tags-container li:nth-child(4n+2) {
+  background: #4a8ef7;
+}
+
+.sessions-container {
+	background-color: grey;
+	display: inline-block;
+	font-weight: bold;
+	padding-left: 3px;
+	padding-bottom: 2px;
+	position:absolute;
+	bottom: 3px;
+	left: 3px;
+	min-width: 139.5px;
+	border-radius: 3px;
+}
+
+.sessions-count {
+	display: inline-block;
+	background-color: #FE6601;    
+	margin-left: 10px;
+	padding: 0 3px 1px 3px;
+	min-width: 10px;
+	float:right;
+	border-radius: 0 3px 0 3px;
+}
+
+.sessions-date-range {
+	font-size: 12px;
+	font-weight: normal;
+	padding-right: 3px;    
 }
 
 #isotope-container {
