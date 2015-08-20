@@ -1,5 +1,15 @@
 [
 	{
+		"Id": "8844ccc4-fa50-4cea-becc-2b391eb743bf",
+		"Publisher": "Clarius Consulting",
+		"Name": "How to mock extension methods",
+		"LinkUrl": "http://blogs.clariusconsulting.net/kzu/how-to-mock-extension-methods/",
+		"Type": "Blog",
+		"Tags": [ "Mocking", "Extension Methods", "Unit Testing" ],
+		"Authors": [ "Daniel Cazzulino" ],
+		"Sessions": [ "2015-07-31T01:00:00-01:00" ]
+	},
+	{
 		"Id": "8589cc29-36ad-4533-8eca-a7da52e16a7d",
 		"Publisher": ".Net Rocks",
 		"Name": "SOLID Principles and .NET with Chris Klug",
@@ -40,6 +50,26 @@
 		"Sessions": [ "2015-07-29T01:00:00-01:00" ]
 	},
 	{
+		"Id": "68a2e73e-4a7a-49c5-b2d1-20ec206da629",
+		"Publisher": "Microsoft Press",
+		"Name": "Adaptive Code via C#",
+		"LinkUrl": "http://www.amazon.co.uk/Adaptive-Code-via-Interface-Principles/dp/0735683204",
+		"Type": "Book",
+		"Tags": [ "Agile", "C#", "SOLID", "Adaptive Code" ],
+		"Authors": [ "Gary McLean Hall" ],
+		"Sessions": [ "2015-07-27T01:00:00-01:00", "2015-07-28T01:00:00-01:00", "2015-07-29T01:00:00-01:00", "2015-07-30T01:00:00-01:00", "2015-07-31T01:00:00-01:00" ]
+	},
+	{
+		"Id": "c1a57a16-621e-4d4e-951c-f0164f7792f0",
+		"Publisher": "Jonathan Ody",
+		"Name": "Fuji San Prototype",
+		"LinkUrl": "https://github.com/jonathanody/FujiSanPrototype",
+		"Type": "Project",
+		"Tags": [ "Javascript", "Bootstrap", "CSS", "AngularJS", "ASP.NET WebAPI" ],
+		"Authors": [ "Jonathan Ody" ],
+		"Sessions": [ "2015-07-26T01:00:00-01:00" ]
+	},
+	{
 		"Id": "7feae223-cd81-47e8-bd4c-7ed4a570b7bb",
 		"Publisher": "Visual Studio",
 		"Name": "Keynote: Visual Studio 2015 - Any app, Any developer",
@@ -50,6 +80,16 @@
 		"Sessions": [ "2015-07-25T01:00:00-01:00", "2015-07-26T01:00:00-01:00" ]
 	},
 	{
+		"Id": "7e286edd-0133-42d7-a40a-672d6a7ebcdf",
+		"Publisher": "Pluralsight",
+		"Name": "Developers: This is why you need to ditch your morning checklist",
+		"LinkUrl": "http://blog.pluralsight.com/it-monitoring-solutions) {Blog} [Automation, Check list",
+		"Type": "Blog",
+		"Tags": [ "Automation", "Check list" ],
+		"Authors": [ "Adam Bertram" ],
+		"Sessions": [ "2015-07-23T01:00:00-01:00" ]
+	},
+	{
 		"Id": "35c035e1-1344-4d54-8f17-af7aedec561b",
 		"Publisher": ".Net Rocks",
 		"Name": "Lean Functional with Bryan Hunter",
@@ -58,6 +98,16 @@
 		"Tags": [ "Lean Functional" ],
 		"Authors": [ "Carl Franklin", "Richard Campbell", "Bryan Hunter" ],
 		"Sessions": [ "2015-07-23T01:00:00-01:00", "2015-07-28T01:00:00-01:00" ]
+	},
+	{
+		"Id": "3dc4013c-b5d5-41ed-b0bc-f3fb10357d4b",
+		"Publisher": "Simple Talk",
+		"Name": "Handling Errors Effectively in ASP.NET MVC",
+		"LinkUrl": "https://www.simple-talk.com/dotnet/asp.net/handling-errors-effectively-in-asp.net-mvc/",
+		"Type": "Article",
+		"Tags": [ "Error Handling", "ASP.NET MVC" ],
+		"Authors": [ "Dino Esposito" ],
+		"Sessions": [ "2015-07-22T01:00:00-01:00" ]
 	},
 	{
 		"Id": "94d770b5-db37-4f93-b1f0-1c055d1d2dd9",
@@ -160,6 +210,16 @@
 		"Sessions": [ "2015-07-14T01:00:00-01:00", "2015-07-15T01:00:00-01:00", "2015-07-16T01:00:00-01:00" ]
 	},
 	{
+		"Id": "4a0c9a5e-65d9-406b-ad38-38e1f24b3088",
+		"Publisher": "Jason Ody",
+		"Name": "NamaBeer",
+		"LinkUrl": "https://Github.com/jasonody/NamaBeer",
+		"Type": "Project",
+		"Tags": [ "Javascript", "Bootstrap", "CSS", "AngularJS" ],
+		"Authors": [ "Jason Ody", "Jonathan Ody" ],
+		"Sessions": [ "2015-07-13T01:00:00-01:00", "2015-07-16T01:00:00-01:00" ]
+	},
+	{
 		"Id": "90caff79-65d6-4100-8abd-dbf91ab3166b",
 		"Publisher": ".Net Rocks",
 		"Name": "Performance Tuning in Azure with Christopher Bennage",
@@ -200,6 +260,16 @@
 		"Sessions": [ "2015-07-09T01:00:00-01:00" ]
 	},
 	{
+		"Id": "3f921173-b9a5-4036-867c-343b53e3d0c8",
+		"Publisher": "Pluralsight",
+		"Name": "4 habits of highly successful IT companies",
+		"LinkUrl": "http://blog.pluralsight.com/tips-from-successful-tech-companies",
+		"Type": "Blog",
+		"Tags": [ "Career" ],
+		"Authors": [ "Rob Marsh" ],
+		"Sessions": [ "2015-07-08T01:00:00-01:00" ]
+	},
+	{
 		"Id": "e631b3d8-f372-4637-907d-a1c0f791436e",
 		"Publisher": "Tech Ed 2014",
 		"Name": "Applying CQRS and Event Sourcing in Microsoft .NET Applications",
@@ -218,6 +288,26 @@
 		"Tags": [ "ASP.NET MVC", "EF", "Indentity 2", "Workflow", "Master Detail" ],
 		"Authors": [ "Adam Churvis" ],
 		"Sessions": [ "2015-07-06T01:00:00-01:00", "2015-07-07T01:00:00-01:00", "2015-07-08T01:00:00-01:00", "2015-07-09T01:00:00-01:00", "2015-07-12T01:00:00-01:00", "2015-07-14T01:00:00-01:00", "2015-07-15T01:00:00-01:00" ]
+	},
+	{
+		"Id": "a68a16d1-7cef-4d4a-9b1d-2e7519dc02e9",
+		"Publisher": "Pluralsight",
+		"Name": "Full stack developers: Do they really exist?",
+		"LinkUrl": "http://blog.pluralsight.com/full-stack-developer-solution",
+		"Type": "Blog",
+		"Tags": [ "Career" ],
+		"Authors": [ "Adam Bertram" ],
+		"Sessions": [ "2015-07-06T01:00:00-01:00" ]
+	},
+	{
+		"Id": "7e52583a-5fe8-48f6-9ce6-2133b1d5f37f",
+		"Publisher": "Pluralsight",
+		"Name": "NDC: 5 reasons to not miss this conference",
+		"LinkUrl": "http://blog.pluralsight.com/ndc-2015-highlights",
+		"Type": "Blog",
+		"Tags": [ "NDC", "Event" ],
+		"Authors": [ "Lars Klint" ],
+		"Sessions": [ "2015-07-06T01:00:00-01:00" ]
 	},
 	{
 		"Id": "1e53fc45-783a-44be-a51b-beaa223dbd76",
@@ -267,6 +357,26 @@
 		"Type": "Podcast",
 		"Tags": [ "Craftsmanship" ],
 		"Authors": [ "Carl Franklin", "Richard Campbell", "Steve Smith", "Brendan Enrick" ],
+		"Sessions": [ "2015-07-01T01:00:00-01:00" ]
+	},
+	{
+		"Id": "dd6e42e9-5d43-4b10-b64d-ecab133a3a00",
+		"Publisher": "Apress",
+		"Name": "Thinking in LINQ",
+		"LinkUrl": "http://www.amazon.co.uk/Thinking-LINQ-Harnessing-functional-applications/dp/143026845X",
+		"Type": "Book",
+		"Tags": [ "LINQ", "Functional Programming" ],
+		"Authors": [ "Sudipta Mukherjee" ],
+		"Sessions": [ "2015-07-01T01:00:00-01:00", "2015-07-02T01:00:00-01:00", "2015-07-03T01:00:00-01:00", "2015-07-05T01:00:00-01:00", "2015-07-06T01:00:00-01:00", "2015-07-07T01:00:00-01:00", "2015-07-08T01:00:00-01:00", "2015-07-09T01:00:00-01:00", "2015-07-10T01:00:00-01:00", "2015-07-13T01:00:00-01:00", "2015-07-14T01:00:00-01:00", "2015-07-15T01:00:00-01:00", "2015-07-16T01:00:00-01:00", "2015-07-17T01:00:00-01:00", "2015-07-20T01:00:00-01:00", "2015-07-21T01:00:00-01:00", "2015-07-22T01:00:00-01:00" ]
+	},
+	{
+		"Id": "6d28d038-d990-4f9c-a242-90f8949becee",
+		"Publisher": "O'Reily",
+		"Name": "Head First Design Pattens",
+		"LinkUrl": "http://www.amazon.co.uk/Head-First-Design-Patterns-Freeman/dp/0596007124",
+		"Type": "Book",
+		"Tags": [ "Craftsmanship", "Design Patterns" ],
+		"Authors": [ "Eric Freeman", "Elisabeth Freeman", "Kathy Sierra", "Bert Bates" ],
 		"Sessions": [ "2015-07-01T01:00:00-01:00" ]
 	}
 ]
