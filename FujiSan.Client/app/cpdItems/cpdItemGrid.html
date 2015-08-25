@@ -21,27 +21,27 @@
 
 	<div id="grid-filter" class="btn-group" opt-kind ok-key="filter" ng-cloak>
 		<button type="button" class="btn btn-primary active" ok-sel="*">Filter by Type</button>
-		<button ng-repeat="filterType in vm.filterTypes" class="btn btn-default" ok-sel=".{{filterType}}">{{filterType}}</button>
+		<button ng-repeat="filterType in vm.filterTypes" class="btn btn-default" ok-sel=".{{::filterType}}">{{::filterType}}</button>
 	</div>
 
 	<ul id="isotope-container" data-isotope-container="isotope-container" ng-cloak>
-		<li class="cpditem-tile {{tile.type}}" ng-repeat="tile in vm.cpdItems" data-isotope-item="isotope-item" ng-click="vm.hello(tile.name)">
-			<div class="cpditem-tile-title">{{tile.publisher}}</div>
-			<div class="cpditem-tile-content">{{tile.name}}</div>
+		<li class="cpditem-tile {{::tile.type}}" ng-repeat="tile in vm.cpdItems" data-isotope-item="isotope-item" ng-click="vm.hello(tile.name)">
+			<div class="cpditem-tile-title">{{::tile.publisher}}</div>
+			<div class="cpditem-tile-content">{{::tile.name}}</div>
 
 			<div class="cpditem-tile-overlay">
 				<div class="cpditem-tile-overlay-container">
 					<div class="tags-container">
 						<div class="tags-title">Tags</div>
 						<ul>
-							<li ng-repeat="tag in tile.tags">{{tag}}</li>
+							<li ng-repeat="tag in tile.tags">{{::tag}}</li>
 						</ul>
 					</div>
 					<div class="sessions-container">
 						Sessions
-						<div class="sessions-count">{{tile.sessions.length}}</div>
+						<div class="sessions-count">{{::tile.sessions.length}}</div>
 						<div class="clearfix"></div>
-						<div class="sessions-date-range">{{tile.sessionRangeText}}</div>
+						<div class="sessions-date-range">{{::tile.sessionRangeText}}</div>
 					</div>
 				</div>
 			</div>
