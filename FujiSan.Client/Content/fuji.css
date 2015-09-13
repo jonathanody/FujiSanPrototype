@@ -154,24 +154,32 @@
 .cpditem-tile-overlay {
 	position: absolute;
 	top: 0;
-	right: -100%;
 	width: 160px;
 	height: 160px;
 	background-color: #003964;
 	color: white;	
 	overflow: hidden;
-	-moz-transition: .5s right;
-	-o-transition: .5s right;
-	-webkit-transition: .5s right;	
-	transition: .5s right;
+	-moz-transition: .5s transform;
+	-o-transition: .5s transform;
+	-webkit-transition: .5s transform;	
+    transition: .5s transform;	
+    -moz-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -o-transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);  
 }
 
 .cpditem-tile:hover .cpditem-tile-overlay {	
-	right: 0;    
+	-moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);     
 }
 
 .cpditem-tile-overlay-container {
-	padding: 0 3px;
+	padding: 0 5px;
 }
 
 .tags-container {
@@ -195,7 +203,7 @@
 .tags-container li {
 	display: inline-block;
 	font-weight: bold;
-	padding: 0 3px 2px 2px;
+	padding: 0 3px 1px 2px;
 	margin-right: 3px;
 	margin-bottom: 3px;    
 	background: #98c741;
@@ -221,8 +229,8 @@
 	padding-left: 3px;
 	padding-bottom: 2px;
 	position:absolute;
-	bottom: 3px;
-	left: 3px;
+	bottom: 5px;
+	left: 5px;
 	min-width: 139.5px;
 	border-radius: 3px;
 }
