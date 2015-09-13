@@ -8,6 +8,7 @@
 
 	<p class="cpd-items-toolbar">
 		<button class="btn btn-success">Create New</button>
+		<button class="btn btn-info" ng-click="vm.toggleTileHover()">Toggle Tags & Sessions</button>
 
 		<a class="btn btn-default btn-grid-list pull-right active" title="Grid View"
 		   data-ui-sref="cpdItemsGrid" data-ui-sref-active="active">
@@ -29,7 +30,7 @@
 			<div class="cpditem-tile-title">{{::tile.publisher}}</div>
 			<div class="cpditem-tile-content">{{::tile.name}}</div>
 
-			<div class="cpditem-tile-overlay">
+			<div class="cpditem-tile-overlay" ng-class="{applyTileHover:vm.tileHoverState}">
 				<div class="cpditem-tile-overlay-container">
 					<div class="tags-container">
 						<ul>

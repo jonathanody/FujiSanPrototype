@@ -23,6 +23,10 @@
 			alert("Hello " + name);
 		};
 
+		vm.toggleTileHover = function () {
+			vm.tileHoverState = !vm.tileHoverState;
+		};
+
 		function getDistinctTypes(cpdItems) {
 			var unique = {};
 			var distinct = [];
