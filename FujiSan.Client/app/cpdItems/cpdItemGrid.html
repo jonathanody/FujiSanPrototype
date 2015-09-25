@@ -1,6 +1,9 @@
 ﻿<div class="page-header-fuji">
 	<div class="container container-no-padding">
 		<h2>CPD Items Grid</h2>
+		<div class="loading-content pull-right" ng-hide="vm.cpdItemsReady">
+			<img src="/Content/images/loading.gif" />
+		</div>
 	</div>
 </div>
 
@@ -8,7 +11,6 @@
 
 	<p class="cpd-items-toolbar">
 		<button class="btn btn-success">Create New</button>
-		<button class="btn btn-info" ng-click="vm.toggleTileHover()">Toggle Tags & Sessions</button>
 
 		<a class="btn btn-default btn-grid-list pull-right active" title="Grid View"
 		   data-ui-sref="cpdItemsGrid" data-ui-sref-active="active">
@@ -20,31 +22,33 @@
 		</a>
 	</p>
 
-	<div id="grid-filter" class="btn-group" opt-kind ok-key="filter" ng-cloak>
-		<button type="button" class="btn btn-primary active" ok-sel="*">Filter by Type</button>
-		<button ng-repeat="filterType in vm.filterTypes" class="btn btn-default" ok-sel=".{{::filterType}}">{{::filterType}}</button>
-	</div>
-
-	<ul id="isotope-container" data-isotope-container="isotope-container" ng-cloak>
-		<li class="cpditem-tile {{::tile.type}}" ng-repeat="tile in vm.cpdItems" data-isotope-item="isotope-item" ng-click="vm.hello(tile.name)">
-			<div class="cpditem-tile-title">{{::tile.publisher}}</div>
-			<div class="cpditem-tile-content">{{::tile.name}}</div>
-
-			<div class="cpditem-tile-overlay" ng-class="{applyTileHover:vm.tileHoverState}">
-				<div class="cpditem-tile-overlay-container">
-					<div class="tags-container">
-						<ul>
-							<li ng-repeat="tag in tile.tags">{{::tag}}</li>
-						</ul>
-					</div>
-					<div class="sessions-container">
-						Sessions
-						<div class="sessions-count">{{::tile.sessions.length}}</div>
-						<div class="clearfix"></div>
-						<div class="sessions-date-range">{{::tile.sessionRangeText}}</div>
+	<div ng-show="vm.cpdItemsReady" ng-cloak>
+		<button class="btn btn-primary" ng-click="vm.toggleTileHover()">Toggle Tags & Sessions</button>
+		<div id="grid-filter" class="btn-group" opt-kind ok-key="filter">
+			<button type="button" class="btn btn-primary active" ok-sel="*">Filter by Type</button>
+			<button ng-repeat="filterType in vm.filterTypes" class="btn btn-default" ok-sel=".{{::filterType}}">{{::filterType}}</button>
+		</div>
+		<ul id="isotope-container" data-isotope-container="isotope-container">
+			<li class="cpditem-tile {{::tile.type}}" ng-repeat="tile in vm.cpdItems" data-isotope-item="isotope-item" ng-click="vm.hello(tile.name)">
+				<div class="cpditem-tile-title">{{::tile.publisher}}</div>
+				<div class="cpditem-tile-content">{{::tile.name}}</div>
+				<div class="cpditem-tile-overlay" ng-class="{applyTileHover:vm.tileHoverState}">
+					<div class="cpditem-tile-overlay-container">
+						<div class="tags-container">
+							<ul>
+								<li ng-repeat="tag in tile.tags">{{::tag}}</li>
+							</ul>
+						</div>
+						<div class="sessions-container">
+							Sessions
+							<div class="sessions-count">{{::tile.sessions.length}}</div>
+							<div class="clearfix"></div>
+							<div class="sessions-date-range">{{::tile.sessionRangeText}}</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</li>
-	</ul>
+			</li>
+		</ul>
+	</div>
+
 </div>
